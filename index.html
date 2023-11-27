@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <script defer src="script.js"></script>
+
+  <!--Google Font Kumbh Sans-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+<body>
+  <main>
+    <section class="section-faqs">
+
+      <div class="faqs__item faqs__item--1">
+        <div class="faqs__icon-box">
+          <img src="images/illustration-box-desktop.svg" alt="Illustration-of-a-box" class="faqs__icon">
+        </div>
+        <picture class="faqs__image-container">
+          <source media="(max-width: 37.5em)" srcset="images/illustration-woman-online-mobile.svg">
+          <img srcset="images/illustration-woman-online-desktop.svg" alt="Illustration-of-woman-with-desktop"
+            class="faqs__image">
+        </picture>
+      </div>
+
+      <div class="faqs__item faqs__item--2">
+        <h1 class="heading-1">faq</h1>
+
+        <ul class="faqs__collection">
+          <li class="faqs__list">
+            <div class="faqs__list-heading">
+              <span>How many team members can I invite?</span>
+              <span><img src="images/icon-arrow-down.svg" alt="arrow-icon" class="faqs__list-img"></span>
+            </div>
+            <div class="faqs__list-read hidden">You can invite up to 2 additional users on the Free Plan. There is no
+              limit on
+              team members for the Premium plan.</div>
+          </li>
+          <li class="faqs__list">
+            <div class="faqs__list-heading">
+              <span>What is the maximum file upload size?</span>
+              <span><img src="images/icon-arrow-down.svg" alt="arrow-icon" class="faqs__list-img"></span>
+            </div>
+            <div class="faqs__list-read hidden">No more than 2GB. All files in your account must fit your allotted
+              storage
+              space.</div>
+          </li>
+          <li class="faqs__list">
+            <div class="faqs__list-heading">
+              <span>How do I reset my password?</span>
+              <span><img src="images/icon-arrow-down.svg" alt="arrow-icon" class="faqs__list-img"></span>
+            </div>
+            <div class="faqs__list-read hidden">Click “Forgot password” from the login page or “Change password” from
+              your
+              profile page. A reset link will be emailed to you.</div>
+          </li>
+          <li class="faqs__list">
+            <div class="faqs__list-heading">
+              <span>Can I cancel my subscription?</span>
+              <span><img src="images/icon-arrow-down.svg" alt="arrow-icon" class="faqs__list-img"></span>
+            </div>
+            <div class="faqs__list-read hidden">Yes! Send us a message and we’ll process your request no questions
+              asked.</div>
+          </li>
+          <li class="faqs__list">
+            <div class="faqs__list-heading">
+              <span>Do you provide additional support?</span>
+              <span><img src="images/icon-arrow-down.svg" alt="arrow-icon" class="faqs__list-img"></span>
+            </div>
+            <div class="faqs__list-read hidden">Chat and email support is available 24/7. Phone lines are open during
+              normal
+              business hours.</div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
